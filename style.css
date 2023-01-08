@@ -138,6 +138,52 @@ section{
     padding: 0 5px;
 }
 
+
+/* section of description css */
+.description{
+   
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 80%;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    align-items: center;
+    
+}
+.description .content{
+    padding: 20px;
+}
+
+.description .content h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;  
+    text-decoration: underline;
+}
+.description .content p{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.description .photo h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  
+}
+.description img{
+    border-radius: 50%;
+    
+    
+}
+
 /* my skill css section */
 .skill{
     height: 60vh;
